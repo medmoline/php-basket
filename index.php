@@ -8,14 +8,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="public/css/app.css">
+    <link rel="stylesheet" href="public/css/app.css" type="text/css">
   </head>
   <body>
     <div class="container">
       <div class="card_container">
-        <div class="card">
-          <?php stampa_players($players);?>
-        </div>
+        <?php stampa_players($players);?>
       </div>
     </div>
   </body>

@@ -3,3 +3,23 @@
   border:0;
   margin:0;
 }
+
+
+.card_container{
+  background-color:#cecece;
+
+  &:after{
+    display:table;
+    content:'';
+    clear:both;
+  }
+}
+
+.card{
+  height:180px;
+  width:150px;
+  border:1px solid black;
+  float:left;
+  padding: 5px 0;
+  margin:10px 10px 0 0;
+}
